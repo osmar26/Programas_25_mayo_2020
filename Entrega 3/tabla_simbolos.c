@@ -143,11 +143,11 @@ SYM *search_SYM(SYMTAB *tabSimbolos, char * id){
 }
 
 /*
-* Función: buscarIdSimbolo
+* Función: search_id_symbol
 * Descripción: busca en la Tabla de simbolos el id solicitado y retorna
 *   su posición, caso contrario retorna un -1
-* Autor: Mendoza Guillen Sergio Adrián
-* Fecha de creación: 03 noviembre 2019
+* Autor: OJA
+* Fecha de creación: 30 de mayo 2020
 */
 int search_id_symbol(SYMTAB *tabSimbolos, char *id){
   SYM *simbol;
